@@ -15,7 +15,7 @@ jobs:
       - name: Setup atreeon_find_replace
         working-directory: ./atreeon_find_replace
         run: |
-          pub get
+          dart pub get
       - name: Run tests atreeon_find_replace
         working-directory: ./atreeon_find_replace
-        run: pub run test
+        run: dart pub run test
