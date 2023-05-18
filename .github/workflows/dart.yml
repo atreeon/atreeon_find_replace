@@ -1,0 +1,21 @@
+name: Dart CI
+
+on: [ push ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    container:
+      image: google/dart:latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup atreeon_find_replace
+        working-directory: ./atreeon_find_replace
+        run: |
+          pub get
+      - name: Run tests atreeon_find_replace
+        working-directory: ./atreeon_find_replace
+        run: pub run test

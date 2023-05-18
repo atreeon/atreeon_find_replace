@@ -1,0 +1,2 @@
+dart compile exe bin/atreeon_find_replace.dart
+dart compile exe bin/atreeon_find_replace.dart -o build/atreeon_find_replace

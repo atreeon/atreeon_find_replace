@@ -1,0 +1,1 @@
+dart run atreeon_find_replace -f build/example/build.gradle -t "        targetSdkVersion 33" -i replace -r ".*targetSdkVersion.*"

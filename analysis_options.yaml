@@ -1,0 +1,12 @@
+linter:
+  rules:
+    camel_case_types: false
+    annotate_overrides: false
+    file_names: false
+    prefer_const_constructors: false
+    use_key_in_widget_constructors: false
+    library_private_types_in_public_api: false
+    no_leading_underscores_for_local_identifiers: false
+    avoid_init_to_null: false
+    avoid_print: false
+    curly_braces_in_flow_control_structures: false
